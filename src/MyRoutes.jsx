@@ -10,6 +10,8 @@ import Staff from './Staff'
 import FetchData from './FetchData'
 import Data from './Data'
 import Register from './Register'
+import Login from './Login'
+import VerifyEmail from './VerifyEmail'
 
 const MyRoutes = () => {
   return (
@@ -29,6 +31,9 @@ const MyRoutes = () => {
             <Route path='/data/:id' element={<Data/>}/>
 
             <Route path='/register' element={<Register/>}/>
+            <Route path='/login' element ={<Login/>}/>
+
+            <Route path='/verifyEmail/:token' element = {<VerifyEmail/>}/>
           </Route>
         </Routes>
     </BrowserRouter>
