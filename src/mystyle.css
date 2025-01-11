@@ -1,0 +1,24 @@
+.myheading{
+    color: blue;
+    background-color: yellow;
+}
+
+.LIGHT{
+    background-color: white;
+    color: black;
+}
+
+.DARK{
+    background-color: black;
+    color: white;
+}
+
+.LIGHTBUTTON{
+    background-color: gainsboro;
+    color: whitesmoke;
+}
+
+.DARKBUTTON{
+    background-color: yellow;
+    color: blue;
+}
