@@ -36,3 +36,7 @@ export const verifyEmail = token => {
 export const authenticate = data => {
     localStorage.setItem('jwt', JSON.stringify(data))
 }
+
+export const isAuthenticated = () => {
+    return localStorage.getItem('jwt') ? JSON.parse(localStorage.getItem('jwt')) : false
+}
